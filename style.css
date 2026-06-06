@@ -10,3 +10,65 @@ body{
 .container{
     width:500px;
 }
+
+h1{
+    color:#c8f135;
+}
+
+.input{
+    display:flex;
+    gap:10px;
+    margin:20px 0;
+}
+
+input{
+    flex:1;
+    padding:10px;
+    background:#181818;
+    color:white;
+    border:1px solid #333;
+}
+
+button{
+    padding:10px 15px;
+    background:#c8f135;
+    border:none;
+    cursor:pointer;
+}
+
+.counter{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:20px;
+}
+
+.box{
+    background:#181818;
+    padding:15px;
+    width:30%;
+    text-align:center;
+}
+
+.taskList{
+    background:#181818;
+    padding:10px;
+}
+
+.task-item{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px;
+    border-bottom:1px solid #333;
+}
+
+.done .task-label{
+    text-decoration:line-through;
+    color:gray;
+}
+
+.delete-btn{
+    background:red;
+    color:white;
+    padding:5px 10px;
+}
